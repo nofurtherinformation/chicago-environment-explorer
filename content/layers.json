@@ -1,0 +1,12 @@
+{
+  "layers": [
+    {
+      "name": "name of the layer",
+      "source": "source of the layer"
+    },
+    {
+      "name": "Another layer",
+      "source": "another source"
+    }
+  ]
+}
