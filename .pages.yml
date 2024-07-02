@@ -24,7 +24,7 @@ content:
     label: Layers
     type: collection
     path: 'content/layers'
-    filename: '{name}.json'
+    filename: '{slug}.json'
     format: json
     fields:
       - name: slug
