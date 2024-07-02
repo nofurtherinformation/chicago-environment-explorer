@@ -24,9 +24,10 @@ content:
     label: Layers
     type: collection
     path: 'content/layers'
+    filename: '{name}.json'
     format: json
     fields:
-      - name: layer
+      - name: Name
         type: string
-      - name: source
+      - name: Source
         type: string
