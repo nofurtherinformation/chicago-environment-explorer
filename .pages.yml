@@ -22,10 +22,11 @@ content:
         type: rich-text
   - name: layers
     label: Layers
-    type: file
-    path: 'content/layers.json'
+    type: collection
+    path: 'content/layers'
+    format: json
     fields:
-      - name: name
+      - name: layer
         type: string
       - name: source
         type: string
