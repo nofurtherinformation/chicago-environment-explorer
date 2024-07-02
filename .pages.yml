@@ -27,7 +27,9 @@ content:
     filename: '{name}.json'
     format: json
     fields:
-      - name: name
+      - name: slug
+        type: string
+      - name: display_name
         type: string
       - name: source
         type: string
