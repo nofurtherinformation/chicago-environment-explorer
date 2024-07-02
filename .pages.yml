@@ -20,3 +20,12 @@ content:
       - name: body
         label: Body
         type: rich-text
+  - name: layers
+    label: Layers
+    type: file
+    path: 'content/layers.json'
+    fields:
+      - name: name
+        type: string
+      - name: source
+        type: string
