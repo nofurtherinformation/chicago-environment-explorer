@@ -33,3 +33,19 @@ content:
         type: string
       - name: source
         type: string
+  - name: layerfile
+    label: Layer File
+    type: file
+    path: 'content/layers.json'
+    format: json
+    fields:
+      - name: layers
+        type: object
+        fields:
+          - name: name
+            label: Name
+            type: string
+          - name: source
+            label: Source
+            type: string
+        list: true
