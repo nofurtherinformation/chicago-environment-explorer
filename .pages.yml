@@ -27,7 +27,7 @@ content:
     filename: '{name}.json'
     format: json
     fields:
-      - name: Name
+      - name: name
         type: string
-      - name: Source
+      - name: source
         type: string
