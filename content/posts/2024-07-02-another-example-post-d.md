@@ -1,7 +1,7 @@
 ---
 published: true
 date: 2024-07-02
-title: Another example post :D
+title: Another example post :Dee
 ---
 Greetings and salutations!
 
