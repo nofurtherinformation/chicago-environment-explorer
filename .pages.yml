@@ -4,7 +4,7 @@ content:
     label: Posts
     type: collection
     path: 'content/posts'
-    filename: fields.slug
+    filename: '{fields.slug}'
     view:
       fields: [ title, published, date ]
     fields:
