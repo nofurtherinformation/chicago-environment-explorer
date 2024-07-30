@@ -4,6 +4,7 @@ content:
     label: Posts
     type: collection
     path: 'content/posts'
+    filename: fields.slug
     view:
       fields: [ title, published, date ]
     fields:
@@ -20,6 +21,9 @@ content:
       - name: body
         label: Body
         type: rich-text
+      - name: slug
+        label: Slug
+        type: string
   - name: layers
     label: Layers
     type: collection
