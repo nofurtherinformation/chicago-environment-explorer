@@ -5,3 +5,8 @@ title: asdfasdf
 slug: asdfasdfrrrrrr
 ---
 efaefefef
+
+<details>
+  <summary>asdfin</summary>
+  aaefinaewfiaefn
+</details>
